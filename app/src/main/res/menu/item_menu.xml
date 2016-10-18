@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="首页"
+        android:icon="@mipmap/home"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="附近"
+        android:icon="@mipmap/nearby"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="我的"
+        android:icon="@mipmap/info"/>
+
+    <item
+        android:title="关于">
+
+        <menu>
+
+            <item
+                android:id="@+id/item4"
+                android:title="设置"
+                android:icon="@mipmap/settings"/>
+
+            <item
+                android:id="@+id/item5"
+                android:title="关于"
+                android:icon="@mipmap/about"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:title="其他">
+
+        <menu>
+
+            <item
+                android:id="@+id/item6"
+                android:title="换肤"
+                android:icon="@mipmap/skin"/>
+
+            <item
+                android:id="@+id/item7"
+                android:title="退出"
+                android:icon="@mipmap/exit"/>
+
+        </menu>
+
+    </item>
+
+</menu>

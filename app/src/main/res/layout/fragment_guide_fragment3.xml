@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/guid_bac3"
+    tools:context="com.pe1n.pokemon.fragment.GuideFragment3"
+    android:id="@+id/guide3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="200dp"
+        android:id="@+id/btn_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/into"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@mipmap/btn_bac"
+        />
+
+</RelativeLayout>

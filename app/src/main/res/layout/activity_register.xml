@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bac"
+    tools:context="com.pe1n.pokemon.activity.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:src="@mipmap/back" />
+
+    <View
+        android:id="@+id/center_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+
+    <EditText
+        android:id="@+id/et_register_usn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/center_line"
+        android:layout_centerHorizontal="true"
+        android:background="#DFFFFFFF"
+        android:drawablePadding="10dp"
+        android:hint="@string/usn"
+        android:paddingLeft="10dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et_register_usn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="#DFF4A460"
+        android:padding="5dp"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_register_psw"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/center_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#DFFFFFFF"
+        android:drawablePadding="10dp"
+        android:hint="@string/psw"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/et_register_check"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/et_register_psw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#DFFFFFFF"
+        android:drawablePadding="10dp"
+        android:hint="@string/check"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/et_register_check"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#DFFF4500"
+        android:text="@string/commit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
